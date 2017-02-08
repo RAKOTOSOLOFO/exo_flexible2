@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navi {
+    display: flex;
+    height: 150px;
+}
+
+li {
+    background-color: yellow;
+}
+
+#un {
+    justify-content: flex-start;
+}
+
+#deux {
+    justify-content: flex-end;
+}
+
+#trois {
+    justify-content: center;
+}
+
+#quatre {
+    justify-content: space-between;
+}
+
+#cinq {
+    justify-content: space-around;
+}
+
+#six  {
+    text-align: center;
+}
+#six li {
+    background-color: yellow;
+    flex-grow:3;
+}
